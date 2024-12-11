@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "name": "Yeji",
+      "website": "yejis.world",
+      "x": "yeji",
+      "instagram": "faithyeji",
+      "id": 1,
+      "projects": [
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "name": "Davi",
+      "email": "davidtang@usc.edu",
+      "website": "davidwebsite",
+      "x": "david",
+      "instagram": "david",
+      "projects": [
+        3
+      ],
+      "color": "white"
+    },
+    {
+      "id": 3,
+      "name": "Elissa",
+      "email": "elissa@usc.edu",
+      "website": "elissa.com",
+      "x": "elissa",
+      "projects": [
+        4
+      ],
+      "color": "green"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "userId": 1,
+      "createdDate": "2024-11-04",
+      "name": "Grow a Blog",
+      "description": "A blog project I'm working on.",
+      "plantTypeId": 1,
+      "positionX": 100,
+      "positionY": 150,
+      "updates": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "createdDate": "2024-10-20",
+      "name": "Portfolio Refresh",
+      "description": "Redesigning portfolio site.",
+      "plantTypeId": 1,
+      "positionX": 200,
+      "positionY": 300,
+      "updates": [
+        3,
+        9
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "createdDate": "2024-09-15",
+      "name": "Digital Art Gallery",
+      "description": "Creating an online art space.",
+      "plantTypeId": 2,
+      "positionX": 300,
+      "positionY": 400,
+      "updates": [
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "createdDate": "2024-09-15",
+      "name": "Video Game",
+      "description": "Creating a video game.",
+      "plantTypeId": 2,
+      "positionX": 90,
+      "positionY": 80,
+      "updates": [
+        4
+      ]
+    }
+  ],
+  "plantTypes": [
+    {
+      "id": 1,
+      "name": "Poppy"
+    },
+    {
+      "id": 2,
+      "name": "Lavender"
+    }
+  ],
+  "updates": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "date": "2024-11-04",
+      "title": "Initial Setup",
+      "description": "Started the blog layout and structure.",
+      "type": "text"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "date": "2024-11-10",
+      "title": "Published First Post",
+      "description": "First article is live.",
+      "type": "text"
+    },
+    {
+      "id": 3,
+      "projectId": 2,
+      "date": "2024-10-25",
+      "title": "Mockups Completed",
+      "description": "Finished design mockups for new portfolio.",
+      "type": "image"
+    },
+    {
+      "id": 4,
+      "projectId": 3,
+      "date": "2024-09-20",
+      "title": "Gallery Setup",
+      "description": "Initial setup of digital gallery.",
+      "type": "text"
+    },
+    {
+      "projectId": "2",
+      "title": "Finished Color Palette",
+      "description": "Chose red and blue!",
+      "date": "2024-12-03",
+      "id": 9
+    },
+    {
+      "projectId": "1",
+      "title": "Changed colors!",
+      "description": "Color -> green",
+      "date": "2024-12-11",
+      "id": 10
+    },
+    {
+      "projectId": "1",
+      "title": "Added dark mode",
+      "description": "new dark mode feature",
+      "date": "2024-12-11",
+      "id": 11
+    },
+    {
+      "projectId": "1",
+      "title": "Updated text",
+      "description": "New update here!",
+      "date": "2024-12-02",
+      "id": 12
+    }
+  ],
+  "projectAssignments": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "userId": 1,
+      "role": "Creator"
+    },
+    {
+      "id": 2,
+      "projectId": 2,
+      "userId": 1,
+      "role": "Creator"
+    },
+    {
+      "id": 3,
+      "projectId": 3,
+      "userId": 2,
+      "role": "Creator"
+    },
+    {
+      "id": 4,
+      "projectId": 4,
+      "userId": 3,
+      "role": "Creator"
+    }
+  ],
+  "favorites": []
+}
